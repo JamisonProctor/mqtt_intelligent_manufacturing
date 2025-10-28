@@ -1,4 +1,57 @@
-.DS_Store
-venv/
+# Python bytecode and compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+pip-wheel-metadata/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# VS Code and PyCharm project files
+.vscode/
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# Local data files
+data/
+!data/README.md
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Secrets (you may want to configure a separate .env strategy)
+.env
+.env.*
+
+# Docker volumes
+docker/mosquitto/data/
+docker/mosquitto/log/
+docker/mosquitto/config/mosquitto.conf~
+
+# Output artifacts (if you generate figures or reports)
+outputs/
+reports/
+figures/
+
+# Coverage/testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.cache/
+
+# Optional: ignore Kaggle cache if working locally
+~/.cache/kagglehub/
