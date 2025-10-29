@@ -54,4 +54,5 @@ htmlcov/
 .cache/
 
 # Optional: ignore Kaggle cache if working locally
+*.db
 ~/.cache/kagglehub/
