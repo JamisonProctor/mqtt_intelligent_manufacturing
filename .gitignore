@@ -24,7 +24,7 @@ pip-wheel-metadata/
 .DS_Store
 
 # Local data files
-data/
+*.csv
 !data/README.md
 
 # Logs and temporary files
